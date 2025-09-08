@@ -171,11 +171,16 @@ h2 {
 .about-image {
     flex: 1;
     min-width: 300px;
+    margin-left: 10rem;
 }
 
 .about-image img {
     width: 85%;
     border-radius: 8px;
+}
+
+.faixada {
+    border-radius: 9px;
 }
 
 
@@ -221,5 +226,6 @@ footer {
     .faixada {
         width: 90%;
         height: 90%;
+      
     }
 }
