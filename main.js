@@ -1,26 +1,26 @@
 document.addEventListener('DOMContentLoaded', function() {
     
-    // Efeito de Rolagem Suave para links internos
+
     const navLinks = document.querySelectorAll('nav ul li a');
 
     navLinks.forEach(link => {
         link.addEventListener('click', function(e) {
-            e.preventDefault(); // Impede o comportamento padrão do link
+            e.preventDefault();
 
-            const targetId = this.getAttribute('href'); // Pega o href (#servicos, etc)
+            const targetId = this.getAttribute('href'); 
             const targetSection = document.querySelector(targetId);
 
             if (targetSection) {
-                // Calcula a posição da seção e rola suavemente até ela
+             
                 window.scrollTo({
-                    top: targetSection.offsetTop - 80, // -80 para compensar a altura do header fixo
+                    top: targetSection.offsetTop - 80, 
                     behavior: 'smooth'
                 });
             }
         });
     });
 
-    // Opcional: Efeito de 'fade-in' para as seções ao rolar a página
+    
     const sections = document.querySelectorAll('section');
 
     const sectionObserver = new IntersectionObserver((entries, observer) => {

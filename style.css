@@ -1,6 +1,6 @@
-/* ---- Reset Básico e Variáveis de Cor ---- */
+
 :root {
-    --primary-color: #b28a5e; /* Um tom de dourado/marrom */
+    --primary-color: #b28a5e; 
     --dark-bg: #1a2a3a;
     --secondary-dark-bg: #585858;
     --text-color: #f0f0f0;
@@ -25,7 +25,7 @@ body {
     line-height: 1.6;
 }
 
-/* ---- Cabeçalho e Navegação ---- */
+
 header {
     background-color: var(--dark-bg);
     padding: 1rem 5%;
@@ -66,7 +66,7 @@ nav ul li a:hover {
     color: var(--primary-color);
 }
 
-/* ---- Seções Gerais ---- */
+
 section {
     padding: 100px 5%;
 }
@@ -79,7 +79,7 @@ h2 {
     color: var(--primary-color);
 }
 
-/* ---- Seção Hero (Início) ---- */
+
 .hero {
     background-size: cover;
     background-position: center;
@@ -116,7 +116,7 @@ h2 {
     background-color: #c99a6b;
 }
 
-/* ---- Seção de Serviços ---- */
+
 #servicos {
     background-color: var(--secondary-dark-bg);
 }
@@ -156,7 +156,6 @@ h2 {
     margin-bottom: 1rem;
 }
 
-/* ---- Seção Sobre ---- */
 .about-container {
     display: flex;
     align-items: center;
@@ -179,7 +178,7 @@ h2 {
     border-radius: 8px;
 }
 
-/* ---- Seção de Contato ---- */
+
 #contato {
     background-color: var(--secondary-dark-bg);
     text-align: center;
@@ -194,7 +193,7 @@ h2 {
     margin-bottom: 1rem;
 }
 
-/* ---- Rodapé ---- */
+
 footer {
     background-color: var(--dark-bg);
     text-align: center;
@@ -202,10 +201,10 @@ footer {
     border-top: 1px solid var(--secondary-dark-bg);
 }
 
-/* ---- Responsividade para Celulares ---- */
+
 @media (max-width: 768px) {
     nav ul {
-        display: none; /* Em um projeto real, aqui entraria um menu hamburguer com JS */
+        display: none;
     }
 
     .hero-content h1 {
