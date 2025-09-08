@@ -174,7 +174,7 @@ h2 {
 }
 
 .about-image img {
-    width: 100%;
+    width: 85%;
     border-radius: 8px;
 }
 
@@ -192,7 +192,6 @@ h2 {
 .contact-info p {
     margin-bottom: 1rem;
 }
-
 
 footer {
     background-color: var(--dark-bg);
