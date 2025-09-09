@@ -68,7 +68,7 @@ nav ul li a:hover {
 
 
 section {
-    padding: 100px 5%;
+    padding: 80px 5%;
 }
 
 h2 {
@@ -199,7 +199,7 @@ h2 {
 }
 
 .about-image img {
-    width: 85%;
+    width: 80%;
     border-radius: 8px;
     margin-left: 1.8rem;
 }
@@ -264,6 +264,12 @@ footer {
         background-position:0;
         height: 95vh;
     }
+
+    .about-image img {
+    width: 85%;
+    border-radius: 8px;
+    margin-left: 1.8rem;
+}
 
     .map-container {
         justify-content: center;
