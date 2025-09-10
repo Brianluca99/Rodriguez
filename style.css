@@ -84,12 +84,13 @@ h2 {
     margin: -1rem;
 }
 
+
 .hero {
     background-image: url(fotos/cad.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-     height: 95vh;
+    height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -143,6 +144,7 @@ h2 {
 
 #servicos {
     background-color: var(--secondary-dark-bg);
+      border-bottom: 1px solid var(--primary-color);
 }
 
 .services-container {
@@ -180,6 +182,10 @@ h2 {
     margin-bottom: 1rem;
 }
 
+#sobre {
+      border-bottom: 1px solid var(--primary-color);
+}
+
 .about-container {
     display: flex;
     align-items: center;
@@ -210,38 +216,50 @@ h2 {
 
 #colaboradores{
 background-color: var(--dark-bg);
+  border-bottom: 1px solid var(--primary-color);
 }
 
 .colab {
     width: 100%;
     height: auto;
-    border-radius: 8px;
-    border: 3px solid var(--primary-co);
+    border-radius: 8px 8px 0 0;
 }
 
 .service-item2 {
-    padding: 2rem;
     border-radius: 8px;
     width: 300px;
-    text-align: center;
     border: 1px solid var(--primary-color);
-    background-color: var(--secondary-dark-bg);
+    background-color: var(--dark-bg);
     transition: transform 0.3s ease;
+    box-shadow: 10px 10px 15px black;
 }
 
 
-.service-item2 h3 {
+.service-item2 h3  {
     font-family: var(--font-title);
     color: var(--primary-color);
     font-size: 1.5rem;
-    margin-bottom: 1rem;
+    margin-bottom: 8px;
+    margin-left: 24px;
+    margin-top: 12px;
 }
 
+.service-item2 P {
+    margin-bottom: 8px;
+    margin-left: 24px;
+    margin-top: px;
+}
 
 #contato {
+    display: flex;
+    align-items: center;
+    padding: 0;
     background-color: var(--secondary-dark-bg);
     text-align: center;
+     border-bottom: 1px solid var(--primary-color);
+    
 }
+
 
 .contact-info {
     margin-bottom: 3rem;
@@ -251,6 +269,16 @@ background-color: var(--dark-bg);
 
 .contact-info p {
     margin-bottom: 1rem;
+}
+
+
+.map-container {
+   width: 60%;
+height: 600px;
+}
+
+.texto-contato {
+    width: 40%;
 }
 
 
@@ -274,8 +302,8 @@ footer {
 
 .logo2 {
     width: 38%;
-
-
+    display: block;
+    margin: 0 auto;
 }
 
 
@@ -292,7 +320,7 @@ footer {
         background-size: cover;
         background-repeat: no-repeat;
         background-position:0;
-        height: 95vh;
+        height: 100vh;
     }
 
     .about-image img {
@@ -301,15 +329,22 @@ footer {
     margin-left: 1.8rem;
 }
 
+ #contato{
+    flex-direction: column;
+
+ }
+
+
+ .texto-contato {
+    width: 40%;
+    margin-top: 1rem;
+
+}
+
     .map-container {
-        justify-content: center;
-        align-items: center;
         width:100%;
-        display: flex;
     }
-    .map-container iframe {
-        border-radius: 9px;
-    }
+
 
 .hero-content h1 {
     font-size: 2rem;
