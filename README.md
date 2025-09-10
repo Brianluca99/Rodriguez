@@ -3,7 +3,7 @@
  
 Projeto realizado, com foco de um site informativo e para facilitar o agendamento aos clientes da Rodriguez Barbearia. 
 
- [Clique aqui para acessar](https://brianluca99.github.io/Rodriguez/)
+ [Clique aqui para acessar](https://brianluca99.github.io/Rodriguez/#home)
 
 ## Tecnologias
 - HTML 
