@@ -46,6 +46,7 @@ nav .logo {
     font-size: 1.8rem;
     color: var(--primary-color);
     text-decoration: none;
+    
 }
 
 nav ul {
@@ -299,9 +300,11 @@ footer {
     }
 
 .logo2 {
-    width: 38%;
+    width: 40%;
     display: block;
     margin: 0 auto;
+    margin-top: -2rem;
+    margin-bottom: -2rem;
 }
 
 
